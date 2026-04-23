@@ -25,8 +25,8 @@ public class AppTest {
     }
     @Test
     public void subtractTest(){
-        int expectedOut = 4;
-        int actualOut = app.add(4, 2);
+        int expectedOut = 2;
+        int actualOut = app.sub(4, 2);
         assertEquals(expectedOut, actualOut);  
     }
     @Test
